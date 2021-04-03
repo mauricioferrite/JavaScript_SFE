@@ -29,7 +29,7 @@ n4 = parseInt(n4);
 console.log("Apos a conversao com parseInt" + "\n" + "So consegue converter se o primeiro caracter for numero");
 console.log("Valor de n1: " + n1 + " e o Tipo de n1: " + typeof n1);
 console.log("Valor de n3: " + n3 + " e o Tipo de n3: " + typeof n3);
-console.log("Valor de n4: " + n4 + " e o Tipo de n4: " + typeof n4);
+console.log("Valor de n4: " + n4 + " e o Tipo de n4: " + typeof n4 + "\n");
 
 //  Usando Number
 n5 = Number(n5);
@@ -38,7 +38,16 @@ console.log("Apos a conversao com Number" + "\n" + "NAO consegue converter se ho
 console.log("Valor de n5: " + n5 + " e o Tipo de n5: " + typeof n5);
 console.log("Valor de n6: " + n6 + " e o Tipo de n6: " + typeof n6 + "\n");
 
-
-
-
-
+//  Conversao de Number para String
+n2 = 10;
+n2 = n2 + "";
+n3 = 15;
+n3 = n3.toString;
+n4 = 15;
+n4 = n4.toString(2);
+console.log("Conversao de Number para String");
+console.log("Valor de n2: " + n2 + " e o Tipo de n2: " + typeof n2);
+console.log("Outra forma é com o toString");
+console.log("Valor de n3: " + n3 + " e o Tipo de n3: " + typeof n3);
+console.log("toString recebe parametro, nesse caso 2, para representar o numero em formato binario");
+console.log("Valor de n4: " + n4 + " e o Tipo de n4: " + typeof n4);
