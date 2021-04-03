@@ -43,5 +43,5 @@ let varTesteNull = null;
 console.log(`varTest is ${varTesteNull} e o tipo é ${typeof varTesteNull}`);
 varTeste = 10;
 console.log(`varTest is ${varTesteNull} e o tipo é ${typeof varTesteNull}`);
-// Valor null é do tipo OBJECT!!!!
+// Valor null é do tipo OBJECT
 
