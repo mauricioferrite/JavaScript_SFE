@@ -72,3 +72,24 @@ console.log(n1 === 10);
 console.log(n1 >= 10);
 console.log(n1 >= 11);
 
+
+// OPERADORES LÓGICOS
+/*
+Para viajar para o exterior é preciso
+- ser maior de 18 anos
+OU
+- Ter os pais presentes
+E
+- ter comprado a passagem
+*/
+let idade = 21;
+let paisPresentes = false;
+let comprouBilhete = false;
+
+/* IMPORTANTE: o E é interpretado antes do OU */
+let podeViajar = idade >= 18 || paisPresentes && comprouBilhete;
+console.log(`Pode viajar é true pois o E é interpretado primeiro, entao: ${podeViajar}`);
+
+/* Corrige-se com parenteses */
+let podeViajar2 = (idade >= 18 || paisPresentes) && comprouBilhete;
+console.log(`Pode viajar é agora é false pois o os parenteses säo interpretados primeiro, entao: ${podeViajar2}`);
