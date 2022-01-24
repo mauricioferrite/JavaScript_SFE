@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Using while</h1>
+    <script>
+        let n = prompt("Digite um numero");
+        let i = 0;
+
+        while(i <= 10){
+            document.write(`${i} x ${n} = ${(i * n)} <br>`)
+            i++
+        }
+        document.write("Out of loop<br><br>");
+
+        do {
+            if(i > 10){
+                alert("Maior que 10")
+                break
+            }
+            document.write(`${i} x ${n} = ${(i * n)} <br>`)
+            i++
+        } while (i <=10)
+        
+        document.write("<h1>Using for</h1>");
+
+        for (i = 0; i <= 10; i++){
+            document.write(`${i} x ${n} = ${(i * n)} <br>`)
+        }
+        document.write("Out of loop<br><br>");
+
+        for (i = 0; i <= 10; i++){
+            if(i === 5){
+                continue
+            }
+            document.write(`${i} x ${n} = ${(i * n)} <br>`)
+        }
+        document.write("Out of loop");
+    </script>
+
+
+<script>
+
+    
+</script>
+    
+</body>
+</html>
